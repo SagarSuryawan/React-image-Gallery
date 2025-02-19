@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7b3b3;
+}
+.gallery-name{
+    letter-spacing: 2px;
+}
