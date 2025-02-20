@@ -1,3 +1,4 @@
+import  "./Animals.css"
 function Animals({title,description,image,id}) {
 
     return(
