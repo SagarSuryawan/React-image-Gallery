@@ -1,10 +1,10 @@
 import './App.css'
-import Gallery from './Components/Gallery/Gallery'
+import CustomRoutes from './Routes/CustomRoutes'
 
 function App() {
   return (
     <>
-   <Gallery/>
+    <CustomRoutes/>
     </>
   )
 }

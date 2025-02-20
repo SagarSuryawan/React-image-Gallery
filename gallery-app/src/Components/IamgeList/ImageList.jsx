@@ -47,7 +47,7 @@ function ImageList() {
     <div className="image-wrapper">
       <div>
         {images.map((a) => (
-          <Animals title={a.title} description={a.description} image={a.image} key={a.id} />
+          <Animals title={a.title} description={a.description} image={a.image} key={a.id} id={a.id} />
         ))}
       </div>
       <div className="pagination">
