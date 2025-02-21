@@ -5,7 +5,6 @@ function Gallery() {
 
     return(
         <div>
-               <Navbar/>
                <ImageList/>
         </div>
     )

@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import axios from 'axios'
 import { useEffect, useState } from "react"
 import "./ImageDetails.css"
+import Navbar from "../Navbar/Navbar"
 
 function ImageDetails() {
     const {id} = useParams()
@@ -25,15 +26,14 @@ function ImageDetails() {
 
     return(
         <div className="ImagesDetails">
-            
             <div className="title"><h2>{image.title}</h2></div>
             <div className="description">{image.description}</div>
             <div id="photo-box">
                 <img  className= "photo" src={image.image} alt="" />
             </div>
            
-            
         </div>
+
     )
     
 }

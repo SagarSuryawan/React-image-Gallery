@@ -5,7 +5,9 @@ import ImageDetails from '../Components/ImageDetails/ImageDetails'
 function CustomRoutes() {
 
     return (
+
         <Routes>
+           
             <Route path = '/' element = {<Gallery/>} />
             <Route path = "/photos/:id" element = {<ImageDetails/>} />
         </Routes>
