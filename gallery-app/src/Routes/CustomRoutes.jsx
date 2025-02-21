@@ -7,7 +7,7 @@ function CustomRoutes() {
     return (
         <Routes>
             <Route path = '/' element = {<Gallery/>} />
-            <Route path = "/Photos/:id" element = {<ImageDetails/>} />
+            <Route path = "/photos/:id" element = {<ImageDetails/>} />
         </Routes>
     )
 }

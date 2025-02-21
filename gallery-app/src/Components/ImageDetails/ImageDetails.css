@@ -1,0 +1,43 @@
+.ImagesDetails{
+    /* border: 3px solid rgb(11, 11, 11); */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 70%;
+    padding: 0.5rem;
+}
+.photo{
+    border-radius: 10px;
+    margin: auto;
+    transition: box-shadow 0.3s ease-in-out;
+    
+}
+.photo:hover{
+    box-shadow: 20px -20px 20px rgba(0.5, 0.5, 0.5, 0.5);
+    transition: 0;
+}
+.description{
+    color: rgb(71, 45, 48);
+}
+.description:hover{
+    font-size: 20px;
+    transition: 1s;
+}
+.title{
+    color: rgb(12, 90, 108);
+    padding: 10px;
+    
+}
+.title:hover{
+    background-color:#124E66;
+    border-radius: 10px;
+    transition: 1s;
+    color: aliceblue;
+}
+#photo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

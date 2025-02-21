@@ -24,8 +24,8 @@ function ImageList() {
 
       // Map API response to required structure
       const result = responseResults.map((item) => ({
-        title: item.title,
-        description: item.description,
+        // title: item.title,
+        // description: item.description,
         image: item.url,
         id: item.id,
       }));
@@ -45,9 +45,9 @@ function ImageList() {
 
   return (
     <div className="image-wrapper">
-      <div>
+      <div className="container">
         {images.map((a) => (
-          <Animals title={a.title} description={a.description} image={a.image} key={a.id} id={a.id} />
+          <Animals  image={a.image} key={a.id} id={a.id} />
         ))}
       </div>
       <div className="pagination">
@@ -60,8 +60,7 @@ function ImageList() {
         <span> Page {offset / limit + 1} of {Math.ceil(totalPhotos / limit)} </span>
         <button
           onClick={() => downloadImages(offset + limit)}
-          disabled={offset + limit >= totalPhotos}
-        >
+          disabled={offset + limit >= totalPhotos}>
           Next
         </button>
       </div>

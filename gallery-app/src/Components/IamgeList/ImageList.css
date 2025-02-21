@@ -1,16 +1,30 @@
 .image-wrapper{
-    /* border: 1px solid blue; */
-    width: fit-content;
-    margin: auto;
-    
+    border: 3px solid blue;
+    width:100vw;
+    margin:  1rem auto;
+    /* background-color: #cddaa0; */
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
     
 }
+.container{
+    display: grid;
+    grid-template-columns:repeat(4,300px);
+    grid-template-rows: repeat(5,200px); 
+    gap: 15px;
+    width: fit-content;
+}
+
 .pagination{
-    margin: auto;
+    margin: 1rem auto;
     /* border: 1px solid red; */
     width: fit-content;
     display: flex;
     gap: 1rem;
+    padding: 0.5rem;
 }
 .pagination>button{
     width: 50px;
